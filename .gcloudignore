@@ -1,0 +1,16 @@
+cat > .gcloudignore << 'EOF'
+.git
+.gitignore
+.DS_Store
+.vscode
+.idea
+
+node_modules/
+__pycache__/
+*.log
+*.ipynb
+.ipynb_checkpoints/
+
+bin/
+dist/
+EOF
